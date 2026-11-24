@@ -1,0 +1,44 @@
+{
+  "name": "云悠-LAX2",
+  "ip": "161.114.112.196",
+  "carriers": {
+    "telecom": {
+      "return": {
+        "label": "9929",
+        "as_path": [
+          "AS206300",
+          "AS9929",
+          "AS4134"
+        ],
+        "latency_ms": 173.7,
+        "loss_pct": null,
+        "measured_at": "2026-11-24T09:54:17Z"
+      }
+    },
+    "unicom": {
+      "return": {
+        "label": "9929",
+        "as_path": [
+          "AS206300",
+          "AS9929"
+        ],
+        "latency_ms": null,
+        "loss_pct": null,
+        "measured_at": "2026-11-24T09:59:38Z"
+      }
+    },
+    "mobile": {
+      "return": {
+        "label": "CMIN2",
+        "as_path": [
+          "AS58807",
+          "AS9808"
+        ],
+        "latency_ms": 153.9,
+        "loss_pct": null,
+        "measured_at": "2026-11-24T09:54:17Z"
+      }
+    }
+  },
+  "measured_at": "2026-11-24T09:54:17Z"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Vultr2-西雅图",
+  "ip": "137.220.38.157",
+  "carriers": {
+    "telecom": {
+      "return": {
+        "label": "163",
+        "as_path": [
+          "AS1299",
+          "AS4134"
+        ],
+        "latency_ms": 185.5,
+        "loss_pct": null,
+        "measured_at": "2026-11-24T09:54:16Z"
+      }
+    },
+    "unicom": {
+      "return": {
+        "label": "10099",
+        "as_path": [
+          "AS2914",
+          "AS10099"
+        ],
+        "latency_ms": null,
+        "loss_pct": null,
+        "measured_at": "2026-11-24T09:54:16Z"
+      }
+    },
+    "mobile": {
+      "return": {
+        "label": "CMI",
+        "as_path": [
+          "AS58453",
+          "AS9808"
+        ],
+        "latency_ms": 197.8,
+        "loss_pct": null,
+        "measured_at": "2026-11-24T09:54:16Z"
+      }
+    }
+  },
+  "measured_at": "2026-11-24T09:54:16Z"
+}

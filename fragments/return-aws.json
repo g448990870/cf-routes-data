@@ -1,0 +1,42 @@
+{
+  "name": "AWS-美东",
+  "ip": "18.190.199.159",
+  "carriers": {
+    "telecom": {
+      "return": {
+        "label": "163",
+        "as_path": [
+          "AS4134"
+        ],
+        "latency_ms": 201.0,
+        "loss_pct": null,
+        "measured_at": "2026-11-24T09:56:12Z"
+      }
+    },
+    "unicom": {
+      "return": {
+        "label": "4837",
+        "as_path": [
+          "AS4837"
+        ],
+        "latency_ms": null,
+        "loss_pct": null,
+        "measured_at": "2026-11-24T09:56:12Z"
+      }
+    },
+    "mobile": {
+      "return": {
+        "label": "CMI",
+        "as_path": [
+          "AS16509",
+          "AS58453",
+          "AS9808"
+        ],
+        "latency_ms": 247.5,
+        "loss_pct": null,
+        "measured_at": "2026-11-24T09:56:12Z"
+      }
+    }
+  },
+  "measured_at": "2026-11-24T09:56:12Z"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "诺连-LAX",
+  "ip": "64.81.27.128",
+  "carriers": {
+    "telecom": {
+      "return": {
+        "label": "9929",
+        "as_path": [
+          "AS979",
+          "AS9929",
+          "AS4134"
+        ],
+        "latency_ms": 174.6,
+        "loss_pct": null,
+        "measured_at": "2026-11-24T09:54:15Z"
+      }
+    },
+    "unicom": {
+      "return": {
+        "label": "9929",
+        "as_path": [
+          "AS979",
+          "AS9929"
+        ],
+        "latency_ms": null,
+        "loss_pct": null,
+        "measured_at": "2026-11-24T09:54:15Z"
+      }
+    },
+    "mobile": {
+      "return": {
+        "label": "CMIN2",
+        "as_path": [
+          "AS979",
+          "AS14618",
+          "AS58807",
+          "AS9808"
+        ],
+        "latency_ms": 151.7,
+        "loss_pct": null,
+        "measured_at": "2026-11-24T09:54:15Z"
+      }
+    }
+  },
+  "measured_at": "2026-11-24T09:54:15Z"
+}
