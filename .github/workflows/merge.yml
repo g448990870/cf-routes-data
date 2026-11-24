@@ -1,0 +1,22 @@
+name: Merge route fragments
+on:
+  push:
+    paths: ['fragments/*.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 merge-routes.py --out routes.json routes.json fragments/*.json
+      - run: |
+          git config user.name "cf-routes-bot"
+          git config user.email "cf-routes-bot@users.noreply.github.com"
+          git add routes.json
+          git diff --cached --quiet || git commit -m "update routes.json"
+          git push
