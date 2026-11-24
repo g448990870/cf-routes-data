@@ -1,1 +1,319 @@
-{"_note":"示例文件：只填了已实测过的回程标签，其余全部留空（null），不要把 null 当成实测数据。回程标签来自各机器的 NodeQuality 报告；去程全部未测。","servers":{"AWS-美东":{"carriers":{"mobile":{"outbound":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null},"return":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null}},"telecom":{"outbound":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null},"return":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null}},"unicom":{"outbound":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null},"return":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null}}},"ip":"18.190.199.159"},"Vultr1-西雅图":{"carriers":{"mobile":{"outbound":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null},"return":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null}},"telecom":{"outbound":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null},"return":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null}},"unicom":{"outbound":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null},"return":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null}}},"ip":"104.207.158.74"},"Vultr2-西雅图":{"carriers":{"mobile":{"outbound":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null},"return":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null}},"telecom":{"outbound":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null},"return":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null}},"unicom":{"outbound":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null},"return":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null}}},"ip":"137.220.38.157"},"云悠-LAX2":{"carriers":{"mobile":{"outbound":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null},"return":{"as_path":["AS979","AS58807"],"label":"CMIN2","latency_ms":null,"loss_pct":null,"measured_at":null}},"telecom":{"outbound":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null},"return":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null}},"unicom":{"outbound":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null},"return":{"as_path":["AS979","AS9929"],"label":"9929","latency_ms":null,"loss_pct":null,"measured_at":null}}},"ip":"161.114.112.196"},"诺连-LAX":{"carriers":{"mobile":{"outbound":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null},"return":{"as_path":["AS979","AS58807"],"label":"CMIN2","latency_ms":null,"loss_pct":null,"measured_at":null}},"telecom":{"outbound":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null},"return":{"as_path":["AS979","AS10099","AS9929"],"label":"9929","latency_ms":null,"loss_pct":null,"measured_at":null}},"unicom":{"outbound":{"as_path":[],"label":null,"latency_ms":null,"loss_pct":null,"measured_at":null},"return":{"as_path":["AS979","AS10099","AS9929"],"label":"9929","latency_ms":null,"loss_pct":null,"measured_at":null}}},"ip":"64.81.27.128"}},"updated_at":"2026-11-24T05:00:00Z","version":1}
+{
+  "version": 1,
+  "updated_at": "2026-11-24T10:06:06Z",
+  "servers": {
+    "AWS-美东": {
+      "ip": "18.190.199.159",
+      "carriers": {
+        "mobile": {
+          "return": {
+            "label": "CMI",
+            "as_path": [
+              "AS16509",
+              "AS58453",
+              "AS9808"
+            ],
+            "latency_ms": 247.5,
+            "loss_pct": null,
+            "measured_at": "2026-11-24T09:56:12Z"
+          },
+          "outbound": {
+            "label": null,
+            "as_path": [],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": null
+          }
+        },
+        "telecom": {
+          "return": {
+            "label": "163",
+            "as_path": [
+              "AS4134"
+            ],
+            "latency_ms": 201.0,
+            "loss_pct": null,
+            "measured_at": "2026-11-24T09:56:12Z"
+          },
+          "outbound": {
+            "label": null,
+            "as_path": [],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": null
+          }
+        },
+        "unicom": {
+          "return": {
+            "label": "4837",
+            "as_path": [
+              "AS4837"
+            ],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": "2026-11-24T09:56:12Z"
+          },
+          "outbound": {
+            "label": null,
+            "as_path": [],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": null
+          }
+        }
+      }
+    },
+    "Vultr1-西雅图": {
+      "ip": "104.207.158.74",
+      "carriers": {
+        "mobile": {
+          "return": {
+            "label": "CMI",
+            "as_path": [
+              "AS58453",
+              "AS9808"
+            ],
+            "latency_ms": 199.8,
+            "loss_pct": null,
+            "measured_at": "2026-11-24T09:54:16Z"
+          },
+          "outbound": {
+            "label": null,
+            "as_path": [],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": null
+          }
+        },
+        "telecom": {
+          "return": {
+            "label": "163",
+            "as_path": [
+              "AS4134"
+            ],
+            "latency_ms": 249.5,
+            "loss_pct": null,
+            "measured_at": "2026-11-24T09:54:16Z"
+          },
+          "outbound": {
+            "label": null,
+            "as_path": [],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": null
+          }
+        },
+        "unicom": {
+          "return": {
+            "label": "9929",
+            "as_path": [
+              "AS1299",
+              "AS10099",
+              "AS9929"
+            ],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": "2026-11-24T09:54:16Z"
+          },
+          "outbound": {
+            "label": null,
+            "as_path": [],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": null
+          }
+        }
+      }
+    },
+    "Vultr2-西雅图": {
+      "ip": "137.220.38.157",
+      "carriers": {
+        "mobile": {
+          "return": {
+            "label": "CMI",
+            "as_path": [
+              "AS58453",
+              "AS9808"
+            ],
+            "latency_ms": 197.8,
+            "loss_pct": null,
+            "measured_at": "2026-11-24T09:54:16Z"
+          },
+          "outbound": {
+            "label": null,
+            "as_path": [],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": null
+          }
+        },
+        "telecom": {
+          "return": {
+            "label": "163",
+            "as_path": [
+              "AS1299",
+              "AS4134"
+            ],
+            "latency_ms": 185.5,
+            "loss_pct": null,
+            "measured_at": "2026-11-24T09:54:16Z"
+          },
+          "outbound": {
+            "label": null,
+            "as_path": [],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": null
+          }
+        },
+        "unicom": {
+          "return": {
+            "label": "10099",
+            "as_path": [
+              "AS2914",
+              "AS10099"
+            ],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": "2026-11-24T09:54:16Z"
+          },
+          "outbound": {
+            "label": null,
+            "as_path": [],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": null
+          }
+        }
+      }
+    },
+    "云悠-LAX2": {
+      "ip": "161.114.112.196",
+      "carriers": {
+        "mobile": {
+          "return": {
+            "label": "CMIN2",
+            "as_path": [
+              "AS58807",
+              "AS9808"
+            ],
+            "latency_ms": 153.9,
+            "loss_pct": null,
+            "measured_at": "2026-11-24T09:54:17Z"
+          },
+          "outbound": {
+            "label": null,
+            "as_path": [],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": null
+          }
+        },
+        "telecom": {
+          "return": {
+            "label": "9929",
+            "as_path": [
+              "AS206300",
+              "AS9929",
+              "AS4134"
+            ],
+            "latency_ms": 173.7,
+            "loss_pct": null,
+            "measured_at": "2026-11-24T09:54:17Z"
+          },
+          "outbound": {
+            "label": null,
+            "as_path": [],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": null
+          }
+        },
+        "unicom": {
+          "return": {
+            "label": "9929",
+            "as_path": [
+              "AS206300",
+              "AS9929"
+            ],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": "2026-11-24T09:59:38Z"
+          },
+          "outbound": {
+            "label": null,
+            "as_path": [],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": null
+          }
+        }
+      }
+    },
+    "诺连-LAX": {
+      "ip": "64.81.27.128",
+      "carriers": {
+        "mobile": {
+          "return": {
+            "label": "CMIN2",
+            "as_path": [
+              "AS979",
+              "AS14618",
+              "AS58807",
+              "AS9808"
+            ],
+            "latency_ms": 151.7,
+            "loss_pct": null,
+            "measured_at": "2026-11-24T09:54:15Z"
+          },
+          "outbound": {
+            "label": null,
+            "as_path": [],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": null
+          }
+        },
+        "telecom": {
+          "return": {
+            "label": "9929",
+            "as_path": [
+              "AS979",
+              "AS9929",
+              "AS4134"
+            ],
+            "latency_ms": 174.6,
+            "loss_pct": null,
+            "measured_at": "2026-11-24T09:54:15Z"
+          },
+          "outbound": {
+            "label": null,
+            "as_path": [],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": null
+          }
+        },
+        "unicom": {
+          "return": {
+            "label": "9929",
+            "as_path": [
+              "AS979",
+              "AS9929"
+            ],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": "2026-11-24T09:54:15Z"
+          },
+          "outbound": {
+            "label": null,
+            "as_path": [],
+            "latency_ms": null,
+            "loss_pct": null,
+            "measured_at": null
+          }
+        }
+      }
+    }
+  }
+}
